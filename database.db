@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS cars (
+    id integer primary key autoincrement,
+    model varchar(20),
+    marca varchar(20),
+    color varchar(40),
+    km integer,
+    power integer
+);
