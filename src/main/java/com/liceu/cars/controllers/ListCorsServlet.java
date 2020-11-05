@@ -1,6 +1,6 @@
 package com.liceu.cars.controllers;
-
-import com.liceu.cars.daos.*;
+import com.liceu.cars.daos.CarDAO;
+import com.liceu.cars.daos.CarServiceAccess;
 import com.liceu.cars.Car;
 
 import javax.servlet.RequestDispatcher;
@@ -18,9 +18,8 @@ public class ListCorsServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         CarDAO cd = new CarServiceAccess();
         List<Car> list = cd.getAll();
-
         req.setAttribute("cars", list);
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/jsp/listcars.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("./WEB-INF/jsp/listcars.jsp");
         dispatcher.forward(req, resp);
     }
 }
