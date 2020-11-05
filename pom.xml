@@ -36,6 +36,11 @@
       <artifactId>jstl</artifactId>
       <version>1.2</version>
     </dependency>
+    <dependency>
+      <groupId>org.xerial</groupId>
+      <artifactId>sqlite-jdbc</artifactId>
+      <version>3.32.3.2</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -79,14 +84,35 @@
             <container>
               <containerId>tomcat7x</containerId>
               <type>installed</type>
-              <home>/Applications/apache-tomcat-9.0.39</home>
+              <home>C:\Program Files\Apache Software Foundation\Tomcat 9.0</home>
             </container>
             <configuration>
               <type>existing</type>
-              <home>/Applications/apache-tomcat-9.0.39</home>
+              <home>C:\Program Files\Apache Software Foundation\Tomcat 9.0</home>
             </configuration>
           </configuration>
         </plugin>
+
+        <!--
+        <plugin>
+          <groupId>org.codehaus.cargo</groupId>
+          <artifactId>cargo-maven2-plugin</artifactId>
+          <version>1.5.0</version>
+          <configuration>
+            <container>
+              <containerId>tomcat7x</containerId>
+              <type>installed</type>
+              <home>Applications</home>
+            </container>
+            <configuration>
+              <type>existing</type>
+              <home>Application</home>
+            </configuration>
+          </configuration>
+        </plugin>
+
+        -->
+
       </plugins>
     </pluginManagement>
   </build>

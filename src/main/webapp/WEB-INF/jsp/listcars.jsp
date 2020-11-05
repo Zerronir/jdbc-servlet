@@ -11,19 +11,21 @@
 <html>
 <head>
     <title>Title</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
     <p>Cotxes</p>
 
     <table>
-        <th>
-            <td>id</td>
-            <td>Model</td>
-            <td>Marca</td>
-            <td>Color</td>
-            <td>km</td>
-            <td>Potencia</td>
-        </th>
+        <tr>
+            <th>id</th>
+            <th>Model</th>
+            <th>Marca</th>
+            <th>Color</th>
+            <th>km</th>
+            <th>Potencia</th>
+        </tr>
 
         <c:forEach var="c" items="${list}">
             <tr>
@@ -37,6 +39,13 @@
         </c:forEach>
 
     </table>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

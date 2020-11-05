@@ -1,4 +1,4 @@
-package com.liceu.cars;
+package com.liceu.cars.daos;
 
 public class Car {
     int id;

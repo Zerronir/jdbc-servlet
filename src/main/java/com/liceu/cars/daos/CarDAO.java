@@ -1,6 +1,5 @@
 package com.liceu.cars.daos;
 
-import com.liceu.cars.Car;
 import java.util.List;
 
 public interface CarDAO {

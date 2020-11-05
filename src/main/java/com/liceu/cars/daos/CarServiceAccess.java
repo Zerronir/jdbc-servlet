@@ -1,10 +1,5 @@
 package com.liceu.cars.daos;
 
-import com.liceu.cars.daos.CarDAO;
-import com.liceu.cars.Car;
-import com.liceu.cars.daos.Database;
-
-import javax.sql.ConnectionEvent;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -21,17 +16,17 @@ public class CarServiceAccess implements CarDAO {
         try{
 
             Connection c = Database.getConnection();
-            PreparedStatement ps = c.prepareStatement("Select * from cars");
+            PreparedStatement ps = c.prepareStatement("Select * from car");
 
             ResultSet rs = ps.executeQuery();
 
             while(rs.next()){
-                int id = rs.getInt(0);
-                String model = rs.getString(1);
-                String marca = rs.getString(2);
-                String color = rs.getString(3);
-                int km = rs.getInt(4);
-                int power = rs.getInt(5);
+                int id = rs.getInt(1);
+                String model = rs.getString(2);
+                String marca = rs.getString(3);
+                String color = rs.getString(4);
+                int km = rs.getInt(5);
+                int power = rs.getInt(6);
 
                 Car car = new Car(id, model, marca, color, km, power);
                 carList.add(car);
@@ -47,6 +42,21 @@ public class CarServiceAccess implements CarDAO {
 
     @Override
     public void addCar(Car c) {
+        try{
+            Connection con = Database.getConnection();
+
+            PreparedStatement ps = con.prepareStatement("INSERT INTO car (model, marca, color, km, power) VALUES (?, ?, ?, ?, ?)");
+            ps.setString(1, c.getModel());
+            ps.setString(2, c.getMarca());
+            ps.setString(3, c.getColor());
+            ps.setInt(4, c.getKm());
+            ps.setInt(5, c.getPower());
+
+            ps.execute();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
     }
 
