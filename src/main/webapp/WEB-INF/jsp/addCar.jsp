@@ -17,6 +17,10 @@
 <body>
     <p>Cotxes</p>
 
+    <c:if test="${not empty error}">
+        <h3>Error, no se ha podido añadir el coche</h3>
+    </c:if>
+
     <form action="/addCar" method="post">
         <div class="form-group">
             <label for="marca">Marca:</label>

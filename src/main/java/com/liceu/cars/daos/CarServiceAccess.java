@@ -41,7 +41,7 @@ public class CarServiceAccess implements CarDAO {
     }
 
     @Override
-    public void addCar(Car c) {
+    public boolean addCar(Car c) {
         try{
             Connection con = Database.getConnection();
 
@@ -53,9 +53,10 @@ public class CarServiceAccess implements CarDAO {
             ps.setInt(5, c.getPower());
 
             ps.execute();
-
+            return true;
         } catch (Exception e) {
             e.printStackTrace();
+            return false;
         }
 
     }

@@ -2,35 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59a034c2-0916-40ad-94fe-e26d174d1251" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbcDEMO.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liceu/cars/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liceu/cars/daos/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liceu/cars/controllers/ListCorsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liceu/cars/controllers/ListCorsServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/liceu/cars/daos/CarDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liceu/cars/daos/CarDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/liceu/cars/daos/CarServiceAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liceu/cars/daos/CarServiceAccess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listcars.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listcars.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ROOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ROOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/liceu/cars/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/liceu/cars/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/liceu/cars/controllers/ListCorsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/liceu/cars/controllers/ListCorsServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/liceu/cars/daos/CarDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/liceu/cars/daos/CarDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/liceu/cars/daos/CarServiceAccess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/liceu/cars/daos/CarServiceAccess.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/liceu/cars/daos/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/liceu/cars/daos/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ROOT/WEB-INF/jsp/listcars.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/jsp/listcars.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liceu/cars/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liceu/cars/controllers/ListCorsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liceu/cars/controllers/ListCorsServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liceu/cars/daos/CarDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liceu/cars/daos/CarDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liceu/cars/daos/CarServiceAccess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liceu/cars/daos/CarServiceAccess.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liceu/cars/daos/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liceu/cars/daos/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addCar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addCar.jsp" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,29 +69,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Raul\Desktop\FPGSDAW\Segundo\Servidor\jdbc-servlet\src\main\webapp\WEB-INF\jsp" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Raul\Desktop\FPGSDAW\Segundo\Servidor\jdbc-servlet\src\main\webapp\WEB-INF\jsp" />
       <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Raul\Desktop\FPGSDAW\Segundo\Servidor\jdbc-servlet\src\main\webapp\WEB-INF\jsp" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn deploy" />
-    </option>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
     </option>
   </component>
   <component name="RunManager">
@@ -143,26 +110,6 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a0cd7245" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a0cd7245" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@24cecada" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -186,17 +133,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604516019854">
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604673008208">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1604516019854" />
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1604673008208" />
     <state x="549" y="336" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604517637546">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -205,6 +154,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="653" y="219" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1604516330638" />
+    <state x="683" y="432" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1604671767866">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="683" y="432" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1604671767866" />
     <state width="1638" height="261" key="GridCell.Tab.0.bottom" timestamp="1604593505168">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

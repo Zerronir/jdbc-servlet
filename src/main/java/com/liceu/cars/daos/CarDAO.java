@@ -5,7 +5,7 @@ import java.util.List;
 public interface CarDAO {
 
     List<Car> getAll();
-    void addCar(Car c);
+    boolean addCar(Car c);
     void deleteCar(Car c);
     void update(Car c);
 
